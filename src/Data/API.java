@@ -43,7 +43,7 @@ public class API {
             return """
                     
                     -----------------------------------------------------
-                    El valor de\s""" + base_amount + """
+                    El valor de $""" + base_amount + """
                     (""" + base_code + """
                     ) al valor final en (""" + target_code + """
                     ) es de: $""" + ( target_amount * base_amount ) + """
