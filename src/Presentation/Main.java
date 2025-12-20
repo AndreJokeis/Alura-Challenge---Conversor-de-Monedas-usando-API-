@@ -23,13 +23,15 @@ public class Main {
                 --- Qué deseas realizar? -----
                 
                 1) Usar el conversor
-                2) Salir
+                2) Ver el historial de conversiones
+                3) Salir
                 
-                Respuesta:\s""");
+                Opción:\s""");
 
             switch ( check.option(read.nextLine()) ){
                 case 1: check.start(); break;
-                case 2:
+                case 2: check.showHistory(); break;
+                case 3:
                     System.out.println("Perfecto! Nos vemos luego :]");
                     flag = false; break;
             }
