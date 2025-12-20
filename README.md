@@ -6,24 +6,24 @@ Una aplicación de línea de comandos (CLI) eficiente para realizar conversiones
 
 ## Descripción
 
-Este proyecto permite a los usuarios convertir montos entre diferentes divisas internacionales. A diferencia de las calculadoras estáticas, este programa obtiene los datos en tiempo real mediante **ExchangeRate-API**, garantizando que las conversiones sean precisas.
+Este proyecto permite a los usuarios convertir montos entre diferentes divisas. A diferencia de las calculadoras estáticas, este programa obtiene los datos en tiempo real mediante **ExchangeRate-API**, garantizando que las conversiones sean precisas.
 
-El sistema cuenta con un menú interactivo y un historial de operaciones para llevar un registro de las consultas realizadas durante la sesión.
+El sistema cuenta con un menú interactivo y un historial de conversiones para llevar un registro de las consultas realizadas durante la sesión.
 
 ## Estado del Proyecto
 
-**Terminado:** El proyecto cumple con todas sus funcionalidades principales y está listo para su uso inmediato.
+**Terminado:** El proyecto cumple con todas sus funcionalidades principales y está listo para su uso.
 
 ## Configuración de la API (Importante)
 
 **¡El proyecto está listo para usar!**
-La aplicación incluye una **API Key por defecto** configurada para que puedas probar el programa sin necesidad de registrarte.
+La aplicación incluye una **API Key por defecto** configurada para que se pueda probar el programa sin necesidad de registrarte en la web del API.
 
-Sin embargo, si experimentas problemas de conexión o deseas usar tu propia cuenta (por límites de cuota), puedes cambiarla fácilmente:
+Sin embargo, si se tiene problemas de conexión o deseas usar tu propia cuenta (por límites de uso), puedes cambiarla fácilmente:
 
-1.  Navega al paquete: `Data`
+1.  Dirígete al paquete: `Data`
 2.  Abre la clase: `API`
-3.  Busca la variable de la clave y reemplázala con tu propia API Key de [ExchangeRate-API](https://www.exchangerate-api.com/).
+3.  Busca la variable `api_key` dentro del constructor de la clase y reemplázala con tu propia API Key de [ExchangeRate-API](https://www.exchangerate-api.com/).
 
 ## Requisitos e Instalación
 
@@ -42,7 +42,7 @@ Para ejecutar este proyecto necesitas:
 
 Al ejecutar la aplicación, verás un menú interactivo con 3 opciones:
 
-1. **Hacer una conversión:** Elige entre 12 divisas diferentes (MXN, USD, EUR, etc.), ingresa tu monto y obtén el resultado al instante.
+1. **Hacer una conversión:** Elige entre 12 divisas diferentes (US, MXN, ARS, etc.), ingresa tu monto y obtén el resultado al instante.
    
 2. **Mostrar el historial:** Visualiza una lista de todas las conversiones que has realizado desde que abriste el programa. Si es tu primera vez, te invitará a probar el conversor.
 
