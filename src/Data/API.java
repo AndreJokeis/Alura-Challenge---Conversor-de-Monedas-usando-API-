@@ -14,7 +14,9 @@ public class API {
     private ConversionEX jsonEX;
 
     public API(String base_code, String target_code) {
-        this.uri = "https://v6.exchangerate-api.com/v6/851f603d4c2ca9120cfa26c2/pair/" + base_code + "/" + target_code;
+        // API KEY USADA PARA EL PROYECTO (PUEDES CAMBIARLA SI GUSTAS)
+        String api_key = "851f603d4c2ca9120cfa26c2";
+        this.uri = "https://v6.exchangerate-api.com/v6/" + api_key + "/pair/" + base_code + "/" + target_code;
     }
 
     private String getQuery() throws IOException, InterruptedException {
