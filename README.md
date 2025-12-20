@@ -1,4 +1,4 @@
-# Conversor de Monedas (Console Edition)
+# Conversor de Monedas
 
 ![Java Version](https://img.shields.io/badge/Java-17.0.10-orange) ![Status](https://img.shields.io/badge/Status-Terminado-brightgreen)
 
